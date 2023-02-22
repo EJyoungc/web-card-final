@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="./aos.css">
+    <title>Bootstrap w/ Webpack</title>
+
+</head>
+
+<body data-aos-easing="ease-out-cubic" data-aos-duration="200" data-aos-delay="0">
+    <!-- Navigation 1 -->
+    <nav class="navbar  navbar-expand-lg     fs-5  py-3 z-5 hero-grad-line">
+        <div class="container aos-init  ">
+            <a class="navbar-brand" data-aos="fade-up" data-aos-delay="0" href="#">logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0" data-aos="fade-up" data-aos-delay="250">
+                    <li class="nav-item">
+                        <a class="nav-link  aos-init active" data-aos="fade-up" data-aos-delay="0" aria-current="page"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  aos-init" data-aos="fade-up" data-aos-delay="300" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  aos-init" data-aos="fade-up" data-aos-delay="400" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  aos-init" data-aos="fade-up" data-aos-delay="500" href="profile.html">Profile</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="">
+                        <a href="login.html" data-aos="fade-up" data-aos-delay="500"
+                            class="btn  aos-init fs-5 btn-outline-dark ">Sign in</a>
+                    </div>
+                    <div class="px-1">
+                        <a href="register.html" data-aos="fade-up" data-aos-delay="600" class="btn  aos-init btn-dark fs-5">Sign
+                            up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="h-100  py-20 z-0 hero-grad-line shadow-sm">
+        <div class="container ">
+            <div
+                class="row justify-content-center align-items-center d-flex flex-column-reverse flex-md-row flex-lg-row ">
+                <div data-aos="fade-up" data-aos-delay="0" class="col-6 aos-init text-sm-center col-sm-12 col-md-6 col-lg-6">
+                    <div data-aos="fade-up" data-aos-delay="250" class="display-5 aos-init  ">
+                        Get your idea out there in the way you want it
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="400" class="fs-4 text-sm-center aos-init ">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, tempore at laudantium dolore
+                        libero voluptatum iure recusandae, id nisi cupiditate velit illum molestias illo vero, commodi
+                        esse! Quo, voluptatibus sapiente!
+                    </p>
+                    <a data-aos="fade-up" data-aos-delay="0" href="" class=" fs-5 btn btn-outline-dark">
+                        Join us
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="500"
+                    class=" aos-init  col-6 col-sm-12 col-md-6 col-lg-6 text-center">
+                    <div class="w-100">
+                        <img class="img-fluid" src="img/header-10.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- pricing -->
+    <section class="py-5  ">
+        <div class="container">
+            <div class="display-5  text-center">Pricing</div>
+            <p class="pt-2 text-wrap   fs-4 text-capitalize  text-center ">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Commodi quibusdam recusandae distinctio error officia cumque fugit quidem
+                corrupti quis reprehenderit suscipit tempore non cum deleniti placeat, minima expedita sapiente
+                perspiciatis.</p>
+            <div class="">
+                <div class=" justify-content-center align-items-center input-group aos-init aos-animate"
+                    data-aos="fade-up" data-aos-delay="250">
+                    <span class="form-check-label font-heading fs-4 link-dark fw-semibold  me-3">
+                        Monthly
+                    </span>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input border-primary switch-w-40 switch-h-20 " type="checkbox"
+                            role="switch" id="flexSwitchCheckDefault">
+
+                    </div>
+                    <span class="form-check-label ms-3 font-heading fs-4 link-dark fw-semibold">
+                        Annually
+                    </span>
+                </div>
+            </div>
+            <div class="row mt-4 ">
+                <div data-aos="fade-right" class="col-12 col-md-6 col-lg-4 px-1 py-2 ">
+                    <div class="card rounded-4 border-0 shadow bg-light ">
+                        <div class="card-body h-100">
+                            <div>
+                                <h2 class="mb-4">
+                                    Basic
+                                </h2>
+                                <p class="mb-6 text-capitalize fw-semibold">
+                                    The website builder to help you grow
+                                    <span class="text-nowrap">
+                                        - free
+                                    </span>
+                                    from bugs and errors.
+                                </p>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="btn btn-dark fs-4 w-100">
+                                Purchase for <span class="fw-bolder">$10</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-4 px-1 py-2 ">
+                    <div class="card rounded-4  shadow">
+                        <div class="card-body h-100">
+                            <div>
+                                <h2 class="mb-4">
+                                    Premium
+                                </h2>
+                                <p class="mb-6 text-capitalize fw-semibold">
+                                    The website builder to help you grow
+                                    <span class="text-nowrap">
+                                        - free
+                                    </span>
+                                    from bugs and errors.
+                                </p>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-primary fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-primary fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-primary fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-primary fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="btn btn-primary fs-4 w-100">
+                                Purchase for <span class="fw-bolder">$54</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="col-12 col-md-6 col-lg-4 px-1 py-2 ">
+                    <div class="card rounded-4   shadow">
+                        <div class="card-body h-100">
+                            <div>
+                                <h2 class="mb-4">
+                                    Excutive/Ceo
+                                </h2>
+                                <p class="mb-6 text-capitalize fw-semibold">
+                                    The website builder to help you grow
+                                    <span class="text-nowrap">
+                                        - free
+                                    </span>
+                                    from bugs and errors.
+                                </p>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-indigo-500 fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-indigo-500 fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-indigo-500 fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                                <div class="d-flex gap-2 pt-3 pb-3 align-items-center">
+                                    <i class="fa text-indigo-500 fa-check-circle" aria-hidden="true"></i>
+
+                                    <div class="fs-5">Model</div>
+
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="btn bg-indigo-500 text-white fs-4 w-100">
+                                Purchase for <span class="fw-bolder">$164</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature -->
+    <section class=" py-5 text-center hero-grad-line-reverse">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-9 col-xl-8 col-xxl-6">
+					<h2 class="display-5 mb-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+						Feature
+					</h2>
+					<p class="fs-2 mb-8 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
+						Start growing in half the time with an all-in-one website builder - no more long hours spent on
+						the boring stuff!
+					</p>
+				</div>
+			</div>
+			<div class="row pt-5 flex-column-reverse flex-sm-row justify-content-center align-items-center">
+				<div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-3 text-sm-start">
+					<div class="mb-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
+						<h5 class="mb-4">
+							Build Quick
+						</h5>
+						<p class="mb-0">
+							That’s a brilliant idea you’ve got. Build it, and they will come.
+						</p>
+					</div>
+					<div class="mb-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+						<h5 class="mb-4">
+							A Lot of blocks
+						</h5>
+						<p class="mb-0">
+							The website builder to help you grow - free from bugs and errors.
+						</p>
+					</div>
+					<div class="mb-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="750">
+						<h5 class="mb-4">
+							Fully Responsive
+						</h5>
+						<p class="mb-0">
+							Want to create something beautiful? Now you can. In hours, not weeks.
+						</p>
+					</div>
+					<div data-aos="fade-up" data-aos-delay="1000" class="aos-init aos-animate">
+						<h5 class="mb-4">
+							Build Today
+						</h5>
+						<p class="mb-0">
+							Get your idea out there in the way you want it. Start with Startup.
+						</p>
+					</div>
+				</div>
+				<div class="mb-sm-0 mb-15 col-8 col-sm-6 col-md-7 col-lg-5 col-xl-5 col-xxl-4 text-md-end aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+					<img src="./img/feature-5.png" srcset="i/feature-5@2x.png 2x" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- team -->
+    <section class="py-5  border-top h-100   ">
+        <div class="container">
+            <h2 data-aos="fade-up" class="display-5  text-center">Team</h2>
+            <p data-aos="fade-up" class="pt-2   fs-4 text-capitalize  text-center ">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Commodi quibusdam recusandae distinctio error officia cumque fugit quidem
+                corrupti quis reprehenderit suscipit tempore non cum deleniti placeat.</p>
+            <div class="row pt-5">
+                <div data-aos="fade-right" class="col-4 col-sm-12 col-md-4 col-lg-4">
+                    <div class="text-center">
+                        <img src="./img/team-3-1.jpg" class="rounded-circle img-fluid" alt="" srcset="">
+                        <div class="h1 fw-semibold">
+                            Leo
+                        </div>
+                        <p class="fs-5">Developer</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="col-4 col-sm-12 col-md-4 col-lg-4">
+                    <div class="text-center">
+                        <img src="./img/team-3-2.jpg" class="rounded-circle img-fluid" alt="" srcset="">
+                        <div class="h1 fw-semibold">
+                            Betty
+                        </div>
+                        <p class="fs-5">CEO</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="col-4 col-sm-12 col-md-4 col-lg-4">
+                    <div class="text-center">
+                        <img src="./img/team-3-3.jpg" class="rounded-circle img-fluid" alt="" srcset="">
+                        <div class="h1 fw-semibold">
+                            Ryan
+                        </div>
+                        <p class="fs-5">Designer</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Testimonial 3 -->
+    <section data-aos="fade-up" class="py-5 hero-grad-line ">
+        <div class="container">
+            <div class="row justify-content-center text-md-center">
+                <div class="col-lg-10 col-xl-8">
+                    <h2 class="display-5 mb-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                        Testimonial
+                    </h2>
+                </div>
+                <div class="col-md-9 col-lg-7 col-xl-7 col-xxl-5 mb-3">
+                    <p class="fs-4 mb-0  aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                        Start growing in half the time with an
+                        <span class="text-nowrap">
+                            all-in-one
+                        </span>
+                        website builder - no more long hours spent on the boring stuff!
+                    </p>
+                </div>
+            </div>
+            <div class="">
+
+                <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-10 mb-6 aos-init pb-4 aos-animate" data-aos="fade-up"
+                                    data-aos-delay="250">
+                                    <div class="border rounded-2 h-100 p-4 ">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <p class="my-6">
+                                            "We're loving it. This is simply unbelievable! I like it more and more each
+                                            day
+                                            because it
+                                            makes my life a lot easier."
+                                        </p>
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <img src="./img/testimonial-3-1.jpg"
+                                                    srcset="i/testimonial-3-1@2x.jpg 2x" alt=""
+                                                    class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col ps-1">
+                                                <h6>
+                                                    Marvin McKinney
+                                                </h6>
+                                                <p class="fs-5 mb-0">
+                                                    Marketing Coordinator
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-10 mb-6 aos-init pb-4 aos-animate" data-aos="fade-up"
+                                    data-aos-delay="400">
+                                    <div class="border rounded-2 h-100 p-4 ">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <p class="my-6">
+                                            "No matter where you go, It's is the coolest, most happening thing around!
+                                            Not
+                                            able to tell
+                                            you how happy I am with it. "
+                                        </p>
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <img src="./img/testimonial-3-2.jpg"
+                                                    srcset="i/testimonial-3-2@2x.jpg 2x" alt=""
+                                                    class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col ps-1">
+                                                <h6>
+                                                    Floyd Miles
+                                                </h6>
+                                                <p class="fs-5 mb-0">
+                                                    President of Sales
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-10 aos-init  pb-4  aos-animate" data-aos="fade-up"
+                                    data-aos-delay="650">
+                                    <div class="border rounded-2 h-100 p-4 ">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class="fill-action-6 me-1">
+                                            <path
+                                                d="M3.61065 15.4435C3.22465 15.6415 2.78665 15.2945 2.86465 14.8515L3.69465 10.1215L0.171653 6.7655C-0.157347 6.4515 0.0136534 5.8775 0.454653 5.8155L5.35265 5.1195L7.53665 0.7925C7.73365 0.4025 8.26665 0.4025 8.46365 0.7925L10.6477 5.1195L15.5457 5.8155C15.9867 5.8775 16.1577 6.4515 15.8287 6.7655L12.3057 10.1215L13.1357 14.8515C13.2137 15.2945 12.7757 15.6415 12.3897 15.4435L7.99865 13.1875L3.60965 15.4435H3.61065Z">
+                                            </path>
+                                        </svg>
+                                        <p class="my-6">
+                                            "It's all good. It was worth a fortune to my company. It is the most
+                                            valuable
+                                            business
+                                            resource we have EVER purchased."
+                                        </p>
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <img src="./img/testimonial-3-4.jpg"
+                                                    srcset="i/testimonial-3-4@2x.jpg 2x" alt=""
+                                                    class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col ps-1">
+                                                <h6>
+                                                    Gregory holt
+                                                </h6>
+                                                <p class="fs-5 mb-0">
+                                                    President of Sales
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev pe-2 " type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <i class="far text-primary fs-3 fa-angle-left" aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next ps-2" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <i class="far text-primary  fs-3 fa-angle-right" aria-hidden="true"></i>
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- Footer 1 -->
+    <footer class=" py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="mb-md-0 mb-8 col-md-4">
+                    <a href="#" class=" link-dark aos-init"  data-aos="fade-up" data-aos-delay="0" >
+                        <!-- <img src="./img/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt=""
+                            class="img-fluid aos-init aos-animate" data-aos="fade-up" data-aos-delay="0"> -->
+                            Logo
+                    </a>
+                </div>
+                <div class="mb-sm-8 mb-md-0 col-md-2 col-sm-6 aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="150">
+                    <h5 class="mb-4">
+                        Products
+                    </h5>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                    Cards
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Profile
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Slides
+                    </a>
+                </div>
+                <div class="mb-sm-8 mb-md-0 col-md-2 col-sm-6 aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="250">
+                    <h5 class="mb-4">
+                        Articles
+                    </h5>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Coding
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Design
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Inspiration
+                    </a>
+                    
+                </div>
+                <div class="mb-sm-8 mb-sm-0 col-md-2 col-sm-6 aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="400">
+                    <h5 class="mb-4">
+                        About
+                    </h5>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Contact Us
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Newsletter
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Privacy
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Terms
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Cookies
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                    <h5 class="mb-4">
+                        Follow Us
+                    </h5>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Twitter
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Facebook
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Medium
+                    </a>
+                    <a href="#"
+                        class="mb-4 me-2 me-sm-0 d-sm-block link-dark fw-semibold">
+                        Dribbble
+                    </a>
+                </div>
+            </div>
+            <p class="fs-5 text-center mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="650">
+                Copyright © 2021 Designed by Techlink
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="./main.js"></script>
+    <script src="./aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
